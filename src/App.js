@@ -1,9 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import ScatterplotChart from "./components/charts/scatterplotChart";
 import WeatherDashbord from "./components/charts/weatherDashbord/weatherDashbord";
-import Timeline from "./components/charts/weatherDashbord/Timeline"
-import ScatterPlot from "./components/charts/weatherDashbord/ScatterPlot"
-import Histogram from "./components/charts/weatherDashbord/Histogram"
 import { getScatterData, getTimelineData } from "./utils"
 import "./App.css";
 
